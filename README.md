@@ -1,8 +1,9 @@
-# JKLM Bomb Party Bot 🎮🤖
+# JKLM Bomb Party Bot 
 
 A Python bot that plays [Bomb Party](https://jklm.fun), a fast-paced word game, by automatically detecting patterns and typing valid words into the game.
 
 > **Disclaimer**: This bot is intended for educational purposes only. Use responsibly and do not violate the terms of service of any game.
+<img src="https://github.com/user-attachments/assets/6b5be97c-0cf3-41ab-bbe6-5b31ab865544" width="400"/>
 
 ---
 
@@ -32,21 +33,21 @@ pip install -r requirements.txt
 
 ### 3. Running the Bot
 
-#### 1. Launch the game in your browser at https://jklm.fun
+- 1. Launch the game in your browser at https://jklm.fun
 
-#### 2. Ensure the game input box is visible on screen
+- 2. Ensure the game input box is visible on screen
 
-#### 3. Change the mouse move coordinates to match the locations on your screen
+- 3. Change the mouse move coordinates to match the locations on your screen
 
-#### 4. Start a game and run the bot
+- 4. Start a game and run the bot
 
 ```bash
 python jklm.py
 ```
 
-#### 5. Enter the pattern shown on the bomb
+- 5. Enter the pattern shown on the bomb
 
-### 6. The bot will select the best word and type it into the game
+- 6. The bot will select the best word and type it into the game
 
 ## How It Works
 
