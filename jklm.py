@@ -12,9 +12,9 @@ def typeIt(word):
     Moves cursor to box and types word with random speeds
     '''
     global words
-    mouse.move(300, 1080)
+    mouse.move(424, 986)
     mouse.click('left')
-    time.sleep(1)
+    # time.sleep(1)
     print(word)
     for letter in word:
         keyboard.press(letter)
@@ -22,7 +22,7 @@ def typeIt(word):
     keyboard.press('enter')
     #print(f'word {word}')
     words.remove(word)
-    mouse.move(1250, 1000)
+    mouse.move(1277, 975)
     mouse.click('left')
 
 def chooseBest(validWords):
